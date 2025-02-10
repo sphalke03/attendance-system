@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/attendance/css/styles.css">
+
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-card">
+            <form id="loginForm">
+                <h2>Welcome Back</h2>
+                <p>Please log in to continue</p>
+                <div class="input-group">
+                    <label for="username">
+                        <i class="icon-user"></i>
+                        <input type="text" id="username" placeholder="User name / Email" required>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label for="password">
+                        <i class="icon-lock"></i>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </label>
+                </div>
+                <button type="submit">Log In Now <i class="arrow-icon">→</i></button>
+                <div class="footer-text">
+                    <a href="#">Forgot Password?</a> 
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/attendance/js/script.js"></script>
+</body>
+</html>
