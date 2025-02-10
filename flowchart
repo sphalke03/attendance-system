@@ -1,0 +1,30 @@
+/attendance-system
+  ├── backend/            # PHP/Python/Node.js backend files
+  │   ├── config/         # Database configuration files
+  │   ├── api/            # API routes for handling attendance
+  │   ├── models/         # Database models
+  │   ├── controllers/    # Business logic
+  │   ├── index.php       # Main backend entry
+  │   └── .env            # API keys 
+  │
+  ├── frontend/           # HTML, CSS, JS for UI
+  │   ├── login.html      # Login page
+  │   ├── dashboard.html  # Admin dashboard
+  │   ├── styles.css      # CSS file
+  │   ├── script.js       # JavaScript file
+  │   ├── images/         # Any images/icons
+  │   ├── components/     # Reusable UI components
+  │   └── index.html      # Home page
+  │
+  ├── database/           # SQL files for database structure
+  │   ├── schema.sql      # Database schema
+  │   ├── seed.sql        # Sample data
+  │
+  ├── docs/               # Documentation
+  │   ├── README.md       # Project documentation
+  │   ├── API_DOCS.md     # API Documentation
+  │   └── setup-guide.md  # Setup instructions
+  │
+  ├── .gitignore          # Ignore files like /node_modules, /vendor, .env
+  ├── LICENSE             # License file (MIT, Apache, etc.)
+  ├── README.md           # Project description
